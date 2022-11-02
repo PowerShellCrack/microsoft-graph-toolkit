@@ -19,7 +19,7 @@ steps:
       customCommand: '--no-git-tag-version version $(baseVersionNumber).$(Build.BuildId)'
       
   - script: |
-      npm install -g yarn lerna
+      npm install -g yarn learn
       yarn
     displayName: Install dependencies
 
